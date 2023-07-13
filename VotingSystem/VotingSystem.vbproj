@@ -72,23 +72,56 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.vb">
+    <Compile Include=".Designer.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.vb">
-      <DependentUpon>Form1.vb</DependentUpon>
+    <Compile Include="AdminHome.Designer.vb">
+      <DependentUpon>AdminHome.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AdminHome.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Home.Designer.vb">
-      <DependentUpon>Home.vb</DependentUpon>
+    <Compile Include="AdminLogin.Designer.vb">
+      <DependentUpon>AdminLogin.vb</DependentUpon>
     </Compile>
-    <Compile Include="Home.vb">
+    <Compile Include="AdminLogin.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="LogIn.Designer.vb">
-      <DependentUpon>LogIn.vb</DependentUpon>
+    <Compile Include="Agreement.Designer.vb">
+      <DependentUpon>Agreement.vb</DependentUpon>
     </Compile>
-    <Compile Include="LogIn.vb">
+    <Compile Include="Agreement.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminRegTbl.Designer.vb">
+      <DependentUpon>AdminRegTbl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AdminRegTbl.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TermsCondtn.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TermsCondtn.Designer.vb">
+      <DependentUpon>TermsCondtn.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Instruction.Designer.vb">
+      <DependentUpon>Instruction.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Instruction.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VoterHome.Designer.vb">
+      <DependentUpon>VoterHome.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VoterHome.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VoterLogin.Designer.vb">
+      <DependentUpon>VoterLogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VoterLogin.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -106,10 +139,10 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="Receipt.Designer.vb">
-      <DependentUpon>Receipt.vb</DependentUpon>
+    <Compile Include="Ballot.Designer.vb">
+      <DependentUpon>Ballot.vb</DependentUpon>
     </Compile>
-    <Compile Include="Receipt.vb">
+    <Compile Include="Ballot.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Registration.Designer.vb">
@@ -118,22 +151,53 @@
     <Compile Include="Registration.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="AdminVotesTbl.Designer.vb">
+      <DependentUpon>AdminVotesTbl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AdminVotesTbl.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="VotingForm.Designer.vb">
       <DependentUpon>VotingForm.vb</DependentUpon>
     </Compile>
     <Compile Include="VotingForm.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="VOTINGSYSTEMDBDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>VOTINGSYSTEMDBDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="VOTINGSYSTEMDBDataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>VOTINGSYSTEMDBDataSet1.xsd</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.vb</DependentUpon>
+    <EmbeddedResource Include="AdminHome.resx">
+      <DependentUpon>AdminHome.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Home.resx">
-      <DependentUpon>Home.vb</DependentUpon>
+    <EmbeddedResource Include="AdminLogin.resx">
+      <DependentUpon>AdminLogin.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="LogIn.resx">
-      <DependentUpon>LogIn.vb</DependentUpon>
+    <EmbeddedResource Include="Agreement.resx">
+      <DependentUpon>Agreement.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminRegTbl.resx">
+      <DependentUpon>AdminRegTbl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TermsCondtn.resx">
+      <DependentUpon>TermsCondtn.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Instruction.resx">
+      <DependentUpon>Instruction.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VoterHome.resx">
+      <DependentUpon>VoterHome.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VoterLogin.resx">
+      <DependentUpon>VoterLogin.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
@@ -141,11 +205,14 @@
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Receipt.resx">
-      <DependentUpon>Receipt.vb</DependentUpon>
+    <EmbeddedResource Include="Ballot.resx">
+      <DependentUpon>Ballot.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Registration.resx">
       <DependentUpon>Registration.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminVotesTbl.resx">
+      <DependentUpon>AdminVotesTbl.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="VotingForm.resx">
       <DependentUpon>VotingForm.vb</DependentUpon>
@@ -162,6 +229,28 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <None Include="App.config" />
+    <None Include="VOTINGSYSTEMDBDataSet.xsc">
+      <DependentUpon>VOTINGSYSTEMDBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="VOTINGSYSTEMDBDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>VOTINGSYSTEMDBDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="VOTINGSYSTEMDBDataSet.xss">
+      <DependentUpon>VOTINGSYSTEMDBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="VOTINGSYSTEMDBDataSet1.xsc">
+      <DependentUpon>VOTINGSYSTEMDBDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="VOTINGSYSTEMDBDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>VOTINGSYSTEMDBDataSet1.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="VOTINGSYSTEMDBDataSet1.xss">
+      <DependentUpon>VOTINGSYSTEMDBDataSet1.xsd</DependentUpon>
+    </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

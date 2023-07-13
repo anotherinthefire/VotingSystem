@@ -22,5 +22,135 @@ VotingSystem
   resource lookups using this strongly typed resource class.
 </summary>
 </member>
+<member name="T:VotingSystem.VOTINGSYSTEMDBDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:VotingSystem.VOTINGSYSTEMDBDataSet.tbl_BallotDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:VotingSystem.VOTINGSYSTEMDBDataSet.tbl_BallotRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:VotingSystem.VOTINGSYSTEMDBDataSet.tbl_BallotRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:VotingSystem.VOTINGSYSTEMDBDataSetTableAdapters.tbl_BallotTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:VotingSystem.VOTINGSYSTEMDBDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:VotingSystem.VOTINGSYSTEMDBDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(VotingSystem.VOTINGSYSTEMDBDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:VotingSystem.VOTINGSYSTEMDBDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(VotingSystem.VOTINGSYSTEMDBDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:VotingSystem.VOTINGSYSTEMDBDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(VotingSystem.VOTINGSYSTEMDBDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:VotingSystem.VOTINGSYSTEMDBDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:VotingSystem.VOTINGSYSTEMDBDataSetTableAdapters.TableAdapterManager.UpdateAll(VotingSystem.VOTINGSYSTEMDBDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:VotingSystem.VOTINGSYSTEMDBDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:VotingSystem.VOTINGSYSTEMDBDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:VotingSystem.VOTINGSYSTEMDBDataSet1">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:VotingSystem.VOTINGSYSTEMDBDataSet1.tbl_RegistrationsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:VotingSystem.VOTINGSYSTEMDBDataSet1.tbl_RegistrationsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:VotingSystem.VOTINGSYSTEMDBDataSet1.tbl_RegistrationsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:VotingSystem.VOTINGSYSTEMDBDataSet1TableAdapters.tbl_RegistrationsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:VotingSystem.VOTINGSYSTEMDBDataSet1TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:VotingSystem.VOTINGSYSTEMDBDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(VotingSystem.VOTINGSYSTEMDBDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:VotingSystem.VOTINGSYSTEMDBDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(VotingSystem.VOTINGSYSTEMDBDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:VotingSystem.VOTINGSYSTEMDBDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(VotingSystem.VOTINGSYSTEMDBDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:VotingSystem.VOTINGSYSTEMDBDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:VotingSystem.VOTINGSYSTEMDBDataSet1TableAdapters.TableAdapterManager.UpdateAll(VotingSystem.VOTINGSYSTEMDBDataSet1)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:VotingSystem.VOTINGSYSTEMDBDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:VotingSystem.VOTINGSYSTEMDBDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
 </members>
 </doc>
